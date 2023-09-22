@@ -1,0 +1,31 @@
+/* Header.css */
+
+header {
+    background-color: #2b1a1a;
+    color: #faf6f6;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .right-nav {
+    margin-left: 930px; /* Push the navigation to the right */
+  }
+  
+  .right-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .right-nav li {
+    display: inline;
+    margin-left: 20px;
+  }
+  
+  .right-nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  

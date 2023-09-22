@@ -1,0 +1,34 @@
+/* Add this CSS to your stylesheets to make studio cards display horizontally */
+.studios-list {
+  display: flex;
+  flex-wrap: wrap; /* Allow cards to wrap to the next row if needed */
+  gap: 40px; /* Adjust the gap between cards as needed */
+}
+
+.studio-card {
+  width: calc(33.33% - 20px); /* Adjust the card width for a three-column layout */
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+/* Media query to make cards stack vertically on smaller screens */
+@media screen and (max-width: 768px) {
+  .time-selection {
+    flex-direction: column;
+  }
+
+  .studio-card {
+    width: 100%;
+  }
+}
+.time-selection {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Style the "Book Now" button */
+button {
+  align-self: flex-end; /* Align the button to the left within the flex container */
+}

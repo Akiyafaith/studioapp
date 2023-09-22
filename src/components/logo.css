@@ -1,0 +1,48 @@
+/* Logo.css */
+
+.logo {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: left; /* Center-align items horizontally */
+    text-align: left; /* Center-align the text */
+  }
+  
+  .logo-image {
+    max-width: 90px;
+    height: auto;
+  }
+  
+  .logo-content {
+    display: inline-block;
+    flex-direction: column; /* Stack items vertically */
+
+  }
+  
+  .logo-text {
+    font-size: 15px;
+    color: #d0d8db;
+    margin: 0;
+  }
+  
+  .right-nav {
+    margin-left: 870px;
+
+  }
+  
+  .right-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Align navigation links horizontally */
+  justify-content: center; /* Center-align navigation links horizontally */
+  }
+  
+  .right-nav li {
+    margin: 700 10px; /* Add spacing between navigation links */
+  }
+  
+  .right-nav a {
+    color: #f0eaea;
+    text-decoration: none;
+  }
+  

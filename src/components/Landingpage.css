@@ -1,0 +1,33 @@
+/* LandingPage.css */
+
+.landing-page {
+    text-align: left;
+    padding: 0px;
+  }
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px; /* Adjust the height as needed */
+    overflow: hidden;
+  }
+  
+
+  .landing-page h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .landing-page img {
+    max-width: 200%;
+    height: auto;
+    margin-bottom: 10px;
+    border: 1px solid #ddd; /* Optional: Add a border around the image */
+  }
+  
+  .landing-page p {
+    font-size: 16px;
+    color: #666;
+  }
+  
